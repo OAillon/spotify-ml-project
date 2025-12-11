@@ -3,7 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "spotify-ml-project"
+name = "spotify_ml_project"
 version = "0.0.1"
 description = "End-to-end machine learning project using Spotify API for clustering and song recommendations."
 authors = [
@@ -20,13 +20,13 @@ requires-python = "~=3.12.0"
 
 [tool.ruff]
 line-length = 99
-src = ["spotify-ml-project"]
-include = ["pyproject.toml", "spotify-ml-project/**/*.py"]
+src = ["spotify_ml_project"]
+include = ["pyproject.toml", "spotify_ml_project/**/*.py"]
 
 [tool.ruff.lint]
 extend-select = ["I"]  # Add import sorting
 
 [tool.ruff.lint.isort]
-known-first-party = ["spotify-ml-project"]
+known-first-party = ["spotify_ml_project"]
 force-sort-within-sections = true
 

@@ -4,7 +4,7 @@ from loguru import logger
 from tqdm import tqdm
 import typer
 
-from spotify-ml-project.config import FIGURES_DIR, PROCESSED_DATA_DIR
+from spotify_ml_project.config import FIGURES_DIR, PROCESSED_DATA_DIR
 
 app = typer.Typer()
 

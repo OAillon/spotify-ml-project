@@ -27,7 +27,7 @@ End-to-end machine learning project using Spotify API for clustering and song re
 │                         `1.0-jqp-initial-data-exploration`.
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         spotify-ml-project and configuration for tools like black
+│                         spotify_ml_project and configuration for tools like black
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
@@ -39,9 +39,9 @@ End-to-end machine learning project using Spotify API for clustering and song re
 │
 ├── setup.cfg          <- Configuration file for flake8
 │
-└── spotify-ml-project   <- Source code for use in this project.
+└── spotify_ml_project   <- Source code for use in this project.
     │
-    ├── __init__.py             <- Makes spotify-ml-project a Python module
+    ├── __init__.py             <- Makes spotify_ml_project a Python module
     │
     ├── config.py               <- Store useful variables and configuration
     │

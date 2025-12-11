@@ -64,7 +64,7 @@ create_environment:
 ## Make dataset
 .PHONY: data
 data: requirements
-	$(PYTHON_INTERPRETER) spotify-ml-project/dataset.py
+	$(PYTHON_INTERPRETER) spotify_ml_project/dataset.py
 
 
 #################################################################################
